@@ -12,7 +12,7 @@ RUN mkdir "$ANDROID_HOME" .android \
     && yes | $ANDROID_HOME/tools/bin/sdkmanager --licenses
 RUN $ANDROID_HOME/tools/bin/sdkmanager --update
 
-ENV ANDROID_VERSION 26
+ENV ANDROID_VERSION 27
 ENV ANDROID_BUILD_TOOLS_VERSION 28.0.3
 
 RUN $ANDROID_HOME/tools/bin/sdkmanager "build-tools;${ANDROID_BUILD_TOOLS_VERSION}" \
