@@ -1,4 +1,4 @@
-FROM gradle:6.7.0
+FROM gradle:6.7.1
 
 ENV SDK_URL "https://dl.google.com/android/repository/sdk-tools-linux-4333796.zip"
 ENV ANDROID_HOME "/usr/local/android-sdk"
